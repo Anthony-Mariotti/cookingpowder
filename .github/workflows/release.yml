@@ -34,7 +34,7 @@ jobs:
         run: chmod +x ./gradlew
 
       - name: Build
-        run: ./gradlew clean build -Pmod_version=${{VERSION}}
+        run: ./gradlew clean build -Pmod_version=${{env.VERSION}}
 
       - name: Publish
         uses: Kir-Antipov/mc-publish@v3.3
