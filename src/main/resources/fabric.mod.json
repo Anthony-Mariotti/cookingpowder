@@ -2,25 +2,31 @@
   "schemaVersion": 1,
   "id": "cookingpowder",
   "version": "${version}",
-
   "name": "CookingPowder",
   "description": "Cooking gunpowder is a serious consideration.",
-  "authors": [],
-  "contact": {},
-
+  "authors": [
+    "Anthony Mariotti"
+  ],
+  "contact": {
+    "repo": "https://github.com/anthony-mariotti/cookingpowder"
+  },
   "license": "MIT",
   "icon": "assets/cookingpowder/icon.png",
-
   "environment": "*",
-  "entrypoints": {},
-
-      "mixins": [
-        "cookingpowder.mixins.json"
-      ],
-
+  "entrypoints": {
+    "client": [
+      "com.amtraxtge.cookingpowder.client.CookingPowderClient"
+    ],
+    "main": [
+      "com.amtraxtge.cookingpowder.CookingPowder"
+    ]
+  },
+  "mixins": [
+    "cookingpowder.mixins.json"
+  ],
   "depends": {
     "fabricloader": ">=${loader_version}",
-        "fabric": "*",
+    "fabric": "*",
     "minecraft": "${minecraft_version}"
   }
 }

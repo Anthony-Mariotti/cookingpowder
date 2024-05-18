@@ -1,4 +1,4 @@
-package com.amtraxtge.cookingpowder.utilities;
+package com.amtraxtge.cookingpowder.utility;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

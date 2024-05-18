@@ -3,9 +3,9 @@
   "minVersion": "0.8",
   "package": "com.amtraxtge.cookingpowder.mixin",
   "compatibilityLevel": "JAVA_17",
-  "mixins": [
-  ],
+  "mixins": [],
   "client": [
+    "AbstractFurnaceBlockEntityMixin"
   ],
   "injectors": {
     "defaultRequire": 1
