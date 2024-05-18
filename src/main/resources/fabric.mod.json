@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "cookingpowder",
+  "version": "${version}",
+
+  "name": "CookingPowder",
+  "description": "Cooking gunpowder is a serious consideration.",
+  "authors": [],
+  "contact": {},
+
+  "license": "MIT",
+  "icon": "assets/cookingpowder/icon.png",
+
+  "environment": "*",
+  "entrypoints": {},
+
+      "mixins": [
+        "cookingpowder.mixins.json"
+      ],
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+        "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
